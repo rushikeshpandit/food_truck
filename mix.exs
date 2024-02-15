@@ -63,7 +63,8 @@ defmodule FoodTruck.MixProject do
       {:excoveralls, "~> 0.18", only: :test},
       {:sobelow, "~> 0.13", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false},
-      {:mix_test_watch, "~> 1.0", only: [:dev, :test], runtime: false}
+      {:mix_test_watch, "~> 1.0", only: [:dev, :test], runtime: false},
+      {:csv, "~> 2.4"}
     ]
   end
 
